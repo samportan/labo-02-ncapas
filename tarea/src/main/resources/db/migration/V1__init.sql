@@ -21,3 +21,4 @@ CREATE TABLE device (
                         user_id UUID,
                         CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES "user"(id)
 );
+
